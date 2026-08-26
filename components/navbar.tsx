@@ -91,7 +91,7 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-2">
-            <div className="hidden items-center gap-2 md:flex">
+            <div className="flex items-center gap-2">
               <Button
                 className="text-foreground rounded-full p-2"
                 variant="ghost"
