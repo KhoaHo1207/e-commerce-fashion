@@ -76,7 +76,7 @@ export default function Navbar() {
                   className={cn(
                     "relative text-sm font-medium uppercase transition-colors",
                     isActive
-                      ? "text-foreground"
+                      ? "text-foreground underline underline-offset-8"
                       : "text-muted-foreground hover:text-foreground",
                   )}
                 >

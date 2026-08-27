@@ -1,5 +1,5 @@
 import { dummyBestSellers } from "@/constants/dummyProducts";
-import ProductCard from "./product-card";
+import ProductCard from "../product/product-card";
 import SectionHeader from "./section-header";
 
 export default function BestSeller() {
