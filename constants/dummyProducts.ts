@@ -156,3 +156,30 @@ export const dummyProducts = [
     price: 64.99,
   },
 ];
+
+export const dummyProduct = {
+  id: 1,
+  name: "Classic Jean Jacket",
+  images: [
+    "/gallery8.png",
+    "/gallery9.png",
+    "/gallery10.png",
+    "/gallery11.png",
+  ],
+  price: 40.0,
+  inStock: true,
+  quantity: 32,
+  description:
+    "A classic jean jacket with a timeless design. Made from 100% cotton.",
+  sizes: ["L", "M"],
+  colors: [
+    {
+      name: "Charcoal",
+      value: "#1F2937",
+    },
+    {
+      name: "Brown",
+      value: "#854D3D",
+    },
+  ],
+};

@@ -9,8 +9,11 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 export const metadata: Metadata = {
-  title: "Fashion Ecommerce Website",
-  description: "Fashion Ecommerce Website",
+  title: {
+    default: "Fashion.",
+    template: "%s | Fashion.",
+  },
+  description: "Fashion.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

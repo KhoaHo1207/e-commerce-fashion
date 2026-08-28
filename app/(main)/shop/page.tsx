@@ -1,6 +1,12 @@
 import ProductCard from "@/components/product/product-card";
 import FilterOptions from "@/components/shop/filter-options";
 import { dummyProducts } from "@/constants/dummyProducts";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Shop",
+  description: "Browse our collection of products.",
+};
 
 export default function ShopPage() {
   return (
